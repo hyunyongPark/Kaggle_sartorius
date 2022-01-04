@@ -1,5 +1,11 @@
-# Kaggle_sartorius
+# Kaggle Competition - Sartorius
 ---
+
+# Team name/members
+- Team name : SegMan
+- Members
+  - [Park Hyunyong](https://github.com/hyunyongPark)
+  - [Shin younghoon](https://github.com/Yphy)
 
 # Introduction
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/sartorius_title.PNG?raw=true)
@@ -9,7 +15,6 @@ Kaggle 주최인 [instance segmenatation대회](https://www.kaggle.com/c/sartori
 따라서 본 대회에서는 SH-SY5Y, CORT, ASTRO 세 가지 신경세포유형에 대한 instance를 감지해내는 task를 요구한다. 
 
 
----
 # Dataset / Evaluation
 
 ### 1) Dataset
@@ -43,3 +48,5 @@ RLE는 아래의 그림을 참고하도록 한다.
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/evaluation_2.PNG?raw=true)
 
 
+# Solution
+본 대회에서 우리팀은 
