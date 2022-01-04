@@ -53,16 +53,26 @@ RLE는 아래의 그림을 참고하도록 한다.
 
 <br/><br/><br/>
 # Solution
+### 1) modeling
 본 대회에서 우리팀은 Facebook에서 개발한 [Detectron2](https://github.com/facebookresearch/detectron2) 라이브러리를 사용하여 진행하였다.
-Detectron2은 이전 프로젝트에서 사용한 이력이 있어 어색함은 덜했으며, 여러가지 모델과 지원하는 파라미터에 대한 튜닝을 위주로 진행하였다. 
+Detectron2은 이전 프로젝트에서 사용한 이력이 있어 어색함은 덜했으며, 여러가지 pre-trained모델과 지원하는 parameter에 대한 튜닝을 위주로 진행하였다. 
 초기 사용모델은 Mask R-CNN(ResNet+FPN)으로 실험하였으며, 최종적으로는 Cascade Mask R-CNN(ResNet+FPN)모델을 채택하여 진행하였다. 
 Single Model 추론 파이프라인 및 프레임워크는 다음과 같다. 
 
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/casacde_infer_frmwork.PNG?raw=true)
 
-학습은 pre-trained model을 기반으로 fine-tune하는 방식을 거쳤는데 이는 다음의 이미지를 참고하면된다. 
+학습은 pre-trained model을 기반으로 fine-tune하는 방식을 거쳤는데 이는 다음의 파이프라인을 참고하면 된다. 
 
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/training_pipeline.PNG?raw=true)
+
+### 2) Ensemble
+위에서 학습된 모델들은 Ensemble을 사용하여 진행한다.
+
+Ensemble 기법으로는 각 모델에서 예측되는 binary mask를 합집합으로 나열하고, class score 및 bbox 값들에 대해 NMS(Non-Maximum Suppression)를 진행하게 된다. 
+여기서 NMS에 필수적인 threshold값이 존재하기 때문에, 이 파라미터를 실험하는데 많은 시간을 소요하였다. 
+
+
+
 
 
 <br/><br/><br/>
