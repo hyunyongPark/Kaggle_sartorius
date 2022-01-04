@@ -3,8 +3,8 @@
 
 
 # Team name/members
-- Team name : SegMan
-- Members
+- **Team name :** SegMan
+- **Members**
   - [Park Hyunyong](https://github.com/hyunyongPark)
   - [Shin younghoon](https://github.com/Yphy)
 
