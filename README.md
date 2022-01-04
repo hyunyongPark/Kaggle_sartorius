@@ -2,14 +2,13 @@
 ---
 
 
-
 # Team name/members
 - Team name : SegMan
 - Members
   - [Park Hyunyong](https://github.com/hyunyongPark)
   - [Shin younghoon](https://github.com/Yphy)
 
-<br/><br/><br/><br/>
+<br/><br/><br/>
 # Introduction
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/sartorius_title.PNG?raw=true)
 
@@ -17,7 +16,7 @@ Kaggle 주최인 [instance segmenatation대회](https://www.kaggle.com/c/sartori
 기존 8개의 종류의 신경세포를 감지하는 시스템을 실험하고 있었으나, 그 중 SH-SY5Y라는 신경세포종류가 낮은 정밀도 및 정확도를 나타내서 복병이었다고 한다. 
 따라서 본 대회에서는 SH-SY5Y, CORT, ASTRO 세 가지 신경세포유형에 대한 instance를 감지해내는 task를 요구한다. 
 
-<br/><br/><br/><br/>
+<br/><br/><br/>
 # Dataset / Evaluation
 
 ### 1) Dataset
@@ -52,7 +51,7 @@ RLE는 아래의 그림을 참고하도록 한다.
 
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/evaluation_2.PNG?raw=true)
 
-<br/><br/><br/><br/>
+<br/><br/><br/>
 # Solution
 본 대회에서 우리팀은 Facebook에서 개발한 [Detectron2](https://github.com/facebookresearch/detectron2) 라이브러리를 사용하여 진행하였다.
 Detectron2은 이전 프로젝트에서 사용한 이력이 있어 어색함은 덜했으며, 여러가지 모델과 지원하는 파라미터에 대한 튜닝을 위주로 진행하였다. 
