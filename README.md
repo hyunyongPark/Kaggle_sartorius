@@ -9,10 +9,7 @@
   - [Park Hyunyong](https://github.com/hyunyongPark)
   - [Shin younghoon](https://github.com/Yphy)
 
-\
-\
-\
-
+<br/><br/><br/><br/>
 # Introduction
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/sartorius_title.PNG?raw=true)
 
@@ -20,10 +17,9 @@ Kaggle 주최인 [instance segmenatation대회](https://www.kaggle.com/c/sartori
 기존 8개의 종류의 신경세포를 감지하는 시스템을 실험하고 있었으나, 그 중 SH-SY5Y라는 신경세포종류가 낮은 정밀도 및 정확도를 나타내서 복병이었다고 한다. 
 따라서 본 대회에서는 SH-SY5Y, CORT, ASTRO 세 가지 신경세포유형에 대한 instance를 감지해내는 task를 요구한다. 
 
-
-
+<br/><br/><br/><br/>
 # Dataset / Evaluation
-
+<br/>
 ### 1) Dataset
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/img_example.PNG?raw=true)
 
@@ -45,7 +41,7 @@ RLE는 아래의 그림을 참고하도록 한다.
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/rle_encode.png?raw=true)
 
 위와 같이 해당 데이터는 rle encoded value로 구성된 mask정보들이 존재하며 이들은 각 이미지에 해당하는 세포 instance들이라고 볼 수 있다. 
-
+<br/>
 ### 2) Evaluation
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/evaluation_1.PNG?raw=true)
 
@@ -54,8 +50,6 @@ RLE는 아래의 그림을 참고하도록 한다.
 
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/evaluation_2.PNG?raw=true)
 
-
-
-
+<br/><br/><br/><br/>
 # Solution
 본 대회에서 우리팀은 
