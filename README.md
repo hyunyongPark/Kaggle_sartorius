@@ -12,7 +12,18 @@ Kaggle 주최인 [instance segmenatation대회](https://www.kaggle.com/c/sartori
 
 ### 1) Dataset
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/img_example.PNG?raw=true)
+
 본 데이터셋은 위의 그림과 같이 3가지의 Class를 가지고 있으며, 좌표값과 class정보 그리고 여러 메타정보를 가지고 있는 csv file과 각 class별 이미지 file들이 존재한다. 
 
+csv file의 각 column은 다음과 같다.
+>>> * id - unique identifier for object
+>>> * annotation - run length encoded pixels for the identified neuronal cell
+>>> * width - source image width
+>>> * height - source image height
+>>> * cell_type - the cell line
+>>> * plate_time - time plate was created
+>>> * sample_date - date sample was created
+>>> * sample_id - sample identifier
+>>> * elapsed_timedelta - time since first image taken of sample
 
 
