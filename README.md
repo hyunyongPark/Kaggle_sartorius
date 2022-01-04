@@ -20,6 +20,7 @@ Kaggle 주최인 [instance segmenatation대회](https://www.kaggle.com/c/sartori
 <br/><br/><br/><br/>
 # Dataset / Evaluation
 <br/>
+
 ### 1) Dataset
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/img_example.PNG?raw=true)
 
@@ -42,6 +43,7 @@ RLE는 아래의 그림을 참고하도록 한다.
 
 위와 같이 해당 데이터는 rle encoded value로 구성된 mask정보들이 존재하며 이들은 각 이미지에 해당하는 세포 instance들이라고 볼 수 있다. 
 <br/>
+
 ### 2) Evaluation
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/evaluation_1.PNG?raw=true)
 
