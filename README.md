@@ -35,4 +35,3 @@ RLE는 아래의 그림을 참고하도록 한다.
 위와 같이 해당 데이터는 rle encoded value로 구성된 mask정보들이 존재하며 이들은 각 이미지에 해당하는 세포 instance들이라고 볼 수 있다. 
 
 ### 2) Evaluation
-$$IoU(A,B)=$$
