@@ -63,7 +63,7 @@ Single Model 추론 파이프라인 및 프레임워크는 다음과 같다.
 
 학습은 pre-trained model을 기반으로 fine-tune하는 방식을 거쳤는데 이는 다음의 파이프라인을 참고하면 된다. 
 
-![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/training_pipeline.PNG?raw=true)
+![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/training_pipeline_.PNG?raw=true)
 
 ### 2) Ensemble
 위에서 학습된 모델들은 Ensemble을 사용하여 진행한다.
@@ -71,9 +71,12 @@ Single Model 추론 파이프라인 및 프레임워크는 다음과 같다.
 Ensemble 기법으로는 각 모델에서 예측되는 binary mask를 합집합으로 나열하고, class score 및 bbox 값들에 대해 NMS(Non-Maximum Suppression)를 진행하게 된다. 
 여기서 NMS에 필수적인 threshold값이 존재하기 때문에, 이 파라미터를 실험하는데 많은 시간을 소요하였다. 
 
+다음의 파이프라인을 참고하면 된다.
 
+![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/ensemble_pipeline.PNG?raw=true)
 
 
 
 <br/><br/><br/>
 # Conclusion
+최종결과로서 우리는 
