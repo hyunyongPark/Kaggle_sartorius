@@ -62,6 +62,7 @@ Single Model 추론 파이프라인 및 프레임워크는 다음과 같다.
 
 학습은 pre-trained model을 기반으로 fine-tune하는 방식을 거쳤는데 이는 다음의 이미지를 참고하면된다. 
 
+![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/training_pipeline.PNG?raw=true)
 
 
 <br/><br/><br/>
