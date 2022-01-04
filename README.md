@@ -11,6 +11,7 @@ Kaggle 주최인 [instance segmenatation대회](https://www.kaggle.com/c/sartori
 # Dataset / Evaluation
 
 ### 1) Dataset
+![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/img_example.PNG?raw=true)
 본 데이터셋은 위의 그림과 같이 3가지의 Class를 가지고 있으며, 좌표값과 class정보 그리고 여러 메타정보를 가지고 있는 csv file과 각 class별 이미지 file들이 존재한다. 
 
 
