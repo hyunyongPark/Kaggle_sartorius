@@ -79,4 +79,16 @@ Ensemble 기법으로는 각 모델에서 예측되는 binary mask를 합집합�
 
 <br/><br/><br/>
 # Conclusion
-최종결과로서 우리는 
+최종 78등(Top 6%)로 동메달을 획득하였다. 아쉽게도 77등까지가 은메달이었지만 그 범위에 한 등수차이로 도달하지 못하였다.
+
+![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/final_rank.PNG?raw=true)
+
+대회 진행을 하면서 아쉬운 점은 다음과 같다.
+### 1) Training a detection model for each class
+> 각 class별로 인스턴스를 나누어 학습하는 방식이 상위 solution에 있었다. 각 이미지 한장당 multi class가 존재하지않고 동일한 class만 존재하기 때문에 semantic segmentation의 관점으로 접근한 것으로 보인다. 따라서 각 class별 모델을 학습하면 조금 더 mask를 예측하는데에 집중할 수 있을 것으로 보여진다. 
+
+### 2) Use of the Unet
+> 상위 solution에서 Semantic segmentation에서 효과적인 Unet을 학습하여 앙상블하는데에 활용한 것을 볼 수 있다. semantic seg + instance seg의 효과를 기대할 수 있을 것으로 보여진다.
+
+### 3) WBF Ensemble method
+> object detection 분양에서 쓰이는 앙상블 기법으로 WBF(Weighted Boxes Fusion) 방법이 있다. 이 방법은 여러 bounding box를 효과적으로 앙상블하는 방법인데, 이런 방법에 대한 리서치를 못한 것이 매우 아쉬움이 느껴진다. 
