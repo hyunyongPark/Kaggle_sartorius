@@ -36,4 +36,10 @@ RLE는 아래의 그림을 참고하도록 한다.
 
 ### 2) Evaluation
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/evaluation_1.PNG?raw=true)
+
+본 대회에서는 서로다른 IoU threshold값들에 대한 평균정밀도(AP)를 계산하는 식을 사용한다. 
+즉, threshold 0.5~0.95까지의 iou임계값들을 사용하며 이를 다시 평균하여 사용하는 MaP(Mean Average Precision)로 평가를 한다.
+
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/evaluation_2.PNG?raw=true)
+
+
