@@ -8,7 +8,13 @@
 - Members
   - [Park Hyunyong](https://github.com/hyunyongPark)
   - [Shin younghoon](https://github.com/Yphy)
+
 \
+
+\
+
+\
+
 # Introduction
 ![image](https://github.com/hyunyongPark/Kaggle_sartorius/blob/master/img/sartorius_title.PNG?raw=true)
 
